@@ -18,6 +18,16 @@
       .page-title{
         color: #F00000;
       }
+      .post-header{
+        font-size: 30px;
+        color: #880000;
+      }
+      .post-preivew-list{
+        display: grid; 
+        grid-template-columns: 150px 1fr; 
+        gap: 20px; 
+        align-items: center;
+      }
     </style>
   </head>
   <body>
@@ -25,9 +35,9 @@
     <p>Where you can find all news from Macon Middle School!</p>
     <a href="https://mms.macon.k12.nc.us/">To The OFFICIAL MMS Site (https://mms.macon.k12.nc.us/)</a>
     <hr>
-    <div style="display: grid; grid-template-columns: 150px 1fr; gap: 20px; align-items: center;">
-  <img src="./logo.png" alt="Description" width="100%">
-  <p>Test Post</p>
+    <div style="post-preview-list">
+  <img src="./logo.png" alt="Description" height=100>
+  <p class="post-header">Test Post</p>
     </div>
   </body>
 </html>
